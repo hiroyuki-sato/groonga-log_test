@@ -1,0 +1,15 @@
+# header = %w[ name kana addr sex age birthday marriage prefecture mobile mobile_type carry ] 
+
+table_create --name Data --flags TABLE_HASH_KEY --key_type ShortText
+column_create --table Data --name name --type ShortText
+column_create --table Data --name kana --type ShortText
+column_create --table Data --name addr --type ShortText
+column_create --table Data --name sex  --type ShortText
+column_create --table Data --name age  --type ShortText
+column_create --table Data --name birthday --type ShortText
+column_create --table Data --name marriage --type ShortText
+column_create --table Data --name prefecture --type ShortText
+column_create --table Data --name mobile --type ShortText
+column_create --table Data --name mobile_type --type ShortText
+column_create --table Data --name carry --type ShortText
+
